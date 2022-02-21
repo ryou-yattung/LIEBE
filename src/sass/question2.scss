@@ -1,0 +1,23 @@
+@import "ress";
+@import "common";
+@import "vars";
+@import "mixin";
+
+header {
+    padding-top: 72px;
+
+    @include set-head-circle;
+
+    .circle-2 {
+        background-color: $head-circle-fill-color;
+    }
+
+}
+
+@include set-h1-question;
+
+@include set-p-theme;
+
+@include set-select-four-choices;
+
+@include set-footer-back;

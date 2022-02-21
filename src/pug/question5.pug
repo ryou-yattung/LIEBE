@@ -1,0 +1,20 @@
+doctype html
+html(lang="ja")
+    head
+        link(rel="stylesheet", href="css/question5.css")
+        include _temp_p_head.pug
+    body
+        include _header.pug
+        main
+            h1.main-q1 Q.5
+            p.main-p 彼女の髪の毛の長さは？
+            ul.yes-no-wrap
+                li.select-box
+                    a(href="#") ショート
+                li.select-box
+                    a(href="#") ミディアム
+                li.select-box
+                    a(href="#") ロング
+        footer
+            .back-circle
+                a(href="question4.html")

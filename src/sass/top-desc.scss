@@ -1,0 +1,83 @@
+@import "ress";
+@import "common";
+@import "vars";
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: $main-color;
+}
+
+main {
+    .main-top-h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        padding: 120px 0 0 0;
+        color: $top-desc-text-color;
+    }
+
+    .main-top-p {
+        font-size: 1.2rem;
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        padding-top: 20px;
+        color: $top-desc-text-color;
+    }
+
+    .main-mid-p {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        padding-top: 56px;
+        color: $top-desc-text-color;
+    }
+
+    .start-btn {
+        width: 200px;
+        height: 61px;
+        background-color: #1F1715;
+        margin: 20px auto 0;
+        border-radius: 52px;
+        a {
+            text-decoration: none;
+            color: $top-desc-text-color;
+            display: block;
+            font-size: 1.6rem;
+            letter-spacing: 0.2rem;
+            font-weight: 600;
+            text-align: center;
+            line-height: 61px;
+        }
+    }
+
+    .search-btn {
+        width: 200px;
+        height: 40px;
+        border-radius: 52px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        margin: 28px auto 0;
+        a {
+            text-decoration: none;
+            color: $top-desc-text-color;
+            display: block;
+            font-size: 1.2rem;
+            letter-spacing: 0.2rem;
+            font-weight: 600;
+            text-align: center;
+            line-height: 40px;
+        }
+    }
+}
+
+footer {
+    .footer-pic {
+        width: 252px;
+        height: 220px;
+        margin: 47px auto 0;
+    }
+}

@@ -1,0 +1,30 @@
+@import "ress";
+@import "common";
+@import "vars";
+@import "mixin";
+
+body {
+    background-color: #F6F6F6;
+}
+
+.main-title {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.main-sub-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 32px 0 0 40px;
+}
+
+@include set-select-list;
+
+li.select-btn-on {
+    background-color: $main-color;
+}
+
+.main-sub-title-2 {
+    margin: 20px 0 0 40px;
+}

@@ -1,0 +1,28 @@
+doctype html
+html(lang="ja")
+     head
+          include _html3_01_head.pug
+          link(rel="stylesheet" href="css/analysis.css")
+          title 分析
+
+     body 
+          header 
+               h1
+                    input.progress-log
+
+               .update_border
+                    .update_bar
+
+          main 
+               p 
+                |彼女への
+                br
+                |プレゼントを分析中...
+
+               .present
+                    img(src="img/gift.png", alt="")
+
+          
+          script(src='js/anime.min.js')
+          script(src='js/jquery-3.6.0.min.js')
+          script(src='js/analyasis.js')

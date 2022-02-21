@@ -1,0 +1,18 @@
+doctype html
+html(lang="ja")
+    head
+        link(rel="stylesheet", href="css/question1.css")
+        include _temp_p_head.pug
+    body
+        include _header.pug
+        main
+            h1.main-q1 Q.1
+            p.main-p 彼女はピアスをしている？
+            ul.yes-no-wrap
+                li.select-box
+                    a(href="question2.html") はい
+                li.select-box
+                    a(href="question2.html") いいえ
+        footer
+            .back-circle
+                a(href="top-desc.html")
